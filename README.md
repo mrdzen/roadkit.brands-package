@@ -1,30 +1,52 @@
-## Installation
+## Laravel Brand Mapping
+Представляет собой пакет для маппинга названий брендов
 
-You can install the package via composer:
+## Requirements
+* PHP >= 7.0
+* Laravel >= 5.5
+
+## Install
+
+Via composer:
 
 ```bash
-composer require roadkit/brands-mapping
+$ composer require roadkit/brands-mapping
+```
+Enable an alias by editing config/app.php:
+```bash
+'aliases' => [
+    ...
+    'BrandsMapping' => 'Roadkit\BrandsMapping\BrandsMappingFacade',
+    ...
+]
 ```
 
-## Usage
+## Convert to normalize
 
-``` php
-...
-$provider = 'shate;
-$brandOriginName = 'BLUEPRINT';
+```php
+echo BrandsMappingFacade::normalize('BLUEPRINT', 'shate')
+```
+```
+BLUE PRINT
+```
 
-$brandNormalizeValue = BrandsMappingFacade::normalize($brandOriginName, $provider)
-$brandOriginValue = BrandsMappingFacade::normalize($brandNormalizeValue, $provider)
+## Convert to origin
 
-dd($brandNormalizeValue, $brandOriginValue);
-...
-
+```php
+echo BrandsMappingFacade::origin('BLUE PRINT', 'shate')
+```
+```
+BLUEPRINT
 ```
 
 ### Testing
 
+```
+./vendor/bin/phpunit
+```
+or
 ``` bash
-composer test / phpunit
+composer test 
 ```
 
 ### Changelog

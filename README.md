@@ -24,7 +24,7 @@ Enable an alias by editing config/app.php:
 ## Convert to normalize
 
 ```php
-echo BrandsMappingFacade::normalize('BLUEPRINT', 'shate')
+echo BrandsMapping::normalize('BLUEPRINT', 'shate')
 ```
 ```
 BLUE PRINT
@@ -33,7 +33,7 @@ BLUE PRINT
 ## Convert to origin
 
 ```php
-echo BrandsMappingFacade::origin('BLUE PRINT', 'shate')
+echo BrandsMapping::origin('BLUE PRINT', 'shate')
 ```
 ```
 BLUEPRINT

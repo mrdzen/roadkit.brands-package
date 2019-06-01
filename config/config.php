@@ -6,7 +6,6 @@
  */
 
 return [
-    'test' => '1',
     'shate' => [
         'BLUEPRINT' => 'BLUE PRINT',
         'LEMFOERDER' => 'LEMFÖRDER',

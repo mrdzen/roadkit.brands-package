@@ -52,5 +52,16 @@ return [
         'GUD' => 'G.U.D.',
         'FEBI' => 'FEBI BILSTEIN',
         'LEMFORDER' => 'LEMFÖRDER',
-    ]
+    ],
+    'motex' => [
+        'POLMO' => 'POLMOSTROW',
+        'REINZ' => 'VICTOR REINZ',
+        'LEMFORDER' => 'LEMFÖRDER',
+        'MEAT&DORIA' => 'MEAT & DORIA',
+        'KROON-OIL' => 'KROON OIL',
+        'CARGO' => 'CARGOPARTS',
+        'FAI' => 'FAI AutoParts',
+        'AS-METAL' => 'AS METAL',
+        'AVA' => 'AVA QUALITY COOLING',
+    ],
 ];

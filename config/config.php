@@ -64,4 +64,17 @@ return [
         'AS-METAL' => 'AS METAL',
         'AVA' => 'AVA QUALITY COOLING',
     ],
+    'lauto' => [
+        'AKS' => 'AKS DASIS',
+        'COOPERSFIAAM FILTERS' => 'CoopersFiaam',
+        'DYNAMATRIX-KOREA' => 'DYNAMATRIX',
+        'DYNAMAX-KOREA' => 'DYNAMAX',
+        'NURAL' => 'NÜRAL',
+        'NEOLUX' => 'NEOLUX®',
+        'POLMOSTROW' => 'POLMO',
+        'G.U.D' => 'G.U.D.',
+        'MALO' => 'MALÒ',
+        'Mando' => 'Maysan Mando',
+        'LESJOFORS' => 'LESJÖFORS'
+    ]
 ];

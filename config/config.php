@@ -21,6 +21,7 @@ return [
         'FEBI' => 'FEBI BILSTEIN',
         'LEMFORDER' => 'LEMFÖRDER',
         'REINZ' => 'VICTOR REINZ',
+        'G.U.D' => 'G.U.D.',
     ],
     'armtek' => [
         'AS-METAL' => 'AS METAL',
